@@ -109,7 +109,8 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-let port = 8080;
+let port = 8081;
 app.listen(port, () => {
-  console.log("Server is running on port", port);
+  console.log(`Server is running on port http://localhost:${port}`);
 });
+
